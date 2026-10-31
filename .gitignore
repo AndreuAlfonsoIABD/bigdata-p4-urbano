@@ -1,9 +1,14 @@
-﻿# Datos y credenciales
+﻿
+# Datos y credenciales
 data/raw/
 data/*.csv
 data/*.json
+data/**/*.parquet
 .env
 *.pem
+
+# Logs generados
+logs/
 
 # Entornos Python
 .venv/
